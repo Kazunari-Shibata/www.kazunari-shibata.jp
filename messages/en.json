@@ -7,20 +7,22 @@
     },
     "Works": {
         "GASHAPON_OFFICIAL_SITE": {
-            "title": "GASHAPON<span>&reg;</span> OFFICIAL SITE",
-            "description": "Responsible for web production of Bandai's capsule toy \"Gashapon<span>&reg;</span>\" official information site, \"Gashapon<span>&reg;</span> Official Site.\" Implemented a feature that combines sales data sent from Gashapon<span>&reg;</span> machines with users' location information, allowing users to easily search for where they can buy their desired products on a map, thereby enhancing the site's performance as an information resource. Additionally, by linking sales data with the external official online shop \"Gashapon<span>&reg;</span> Online\" in almost real-time, streamlined the process for users to make immediate purchases once they find the products they want. As a result, the site was able to drive approximately 13% of the total sales of the online shop."
+            "title": "GASHAPON OFFICIAL SITE",
+            "h2": "GASHAPON<span>&reg;</span> OFFICIAL SITE",
+            "description": "Responsible for web production of Bandai's capsule toy \"Gashapon<span>&reg;</span>\" official information site, \"Gashapon<span>&reg;</span> Official Site.\" Implemented a feature that combines sales data sent from Gashapon<span>&reg;</span> machines with users' location information, allowing users to easily search for where they can buy their desired products on a map, thereby enhancing the site's performance as an information resource. Additionally, by linking sales data with the external official online shop \"Gashapon<span>&reg;</span> Online\" in almost real-time, streamlined the process for users to make immediate purchases once they find the products they want. As a result, the site was able to drive approximately 13% of the total sales of the online shop.",
+            "copyright": "&copy; BANDAI"
         },
         "HOBBY_SITE": {
             "title": "BANDAI HOBBY SITE",
-            "description": "I was responsible for web direction for the official information site \"Bandai Hobby Site,\" which provides details on plastic models manufactured and sold by BANDAI SPIRITS Inc. Due to the recent surge in popularity, there were frequent instances where the server couldn't handle the high traffic, causing the site to be inaccessible. To address this, I spearheaded the migration to a cloud server, which allows for easier upgrades to server specifications in anticipation of heavy traffic. Before the migration, tens of thousands of 503 (Service Unavailable) errors occurred per hour during peak times, but after the move to the cloud server, this number dropped to zero. This ensured that we could create an environment where we were fully prepared to handle situations where server downtime was absolutely unacceptable."
-        },
-        "GASHAPON_ONLINE": {
-            "title": "GASHAPON<span>&reg;</span> ONLINE",
-            "description": "Responsible for web direction of the official online shop for Gashapon<span>&reg;</span>, \"Gashapon<span>&reg;</span> Online,\" operated by Bandai Namco Amusement Inc. \"Gashapon<span>&reg;</span> Online\" is a service that allows users to purchase Gashapon<span>&reg;</span> online 24/7 from anywhere using a computer or smartphone, with the products delivered to their specified address at a later date. Users can spin a virtual Gashapon<span>&reg;</span> machine on the screen to receive a capsule, which they can then open to see what they've won instantly. One of the features of the online experience includes special lottery screens and sound effects unique to the online format."
+            "h2": "BANDAI HOBBY SITE",
+            "description": "I was responsible for web direction for the official information site \"Bandai Hobby Site,\" which provides details on plastic models manufactured and sold by BANDAI SPIRITS Inc. Due to the recent surge in popularity, there were frequent instances where the server couldn't handle the high traffic, causing the site to be inaccessible. To address this, I spearheaded the migration to a cloud server, which allows for easier upgrades to server specifications in anticipation of heavy traffic. Before the migration, tens of thousands of 503 (Service Unavailable) errors occurred per hour during peak times, but after the move to the cloud server, this number dropped to zero. This ensured that we could create an environment where we were fully prepared to handle situations where server downtime was absolutely unacceptable.",
+            "copyright": "&copy; SOTSU・SUNRISE &copy; BANDAI SPIRITS 1971-{YYYY}"
         },
         "McDonalds_Tray_Mat": {
             "title": "McDonald's Tray Mat",
-            "description": "The \"JK Business,\" a social issue in Japan, refers to employing high school girls in ways that appeal to customers' sexual curiosity, violating regulations such as the Entertainment Law and Juvenile Protection and Development Ordinances. To raise awareness about crime prevention, a competition for tray mats was held by the Nakamura Police Station of Aichi Prefecture and Japan McDonald's, which is active in community contributions. I won the grand prize in this competition. The tray mats were used in all McDonald's locations across the Tokai region, significantly contributing to the eradication of the JK Business, and I received a letter of appreciation from the Aichi Prefectural Police."
+            "h2": "McDonald's Tray Mat",
+            "description": "The \"JK Business,\" a social issue in Japan, refers to employing high school girls in ways that appeal to customers' sexual curiosity, violating regulations such as the Entertainment Law and Juvenile Protection and Development Ordinances. To raise awareness about crime prevention, a competition for tray mats was held by the Nakamura Police Station of Aichi Prefecture and Japan McDonald's, which is active in community contributions. I won the grand prize in this competition. The tray mats were used in all McDonald's locations across the Tokai region, significantly contributing to the eradication of the JK Business, and I received a letter of appreciation from the Aichi Prefectural Police.",
+            "copyright": "&copy; Aichi Prefectural Police Department. All rights reserved &copy; {YYYY} McDONALD’S. All Rights Reserved."
         }
     },
     "Article": {
@@ -45,7 +47,12 @@
         "ひらがな": "えどむらさき"
     },
     "Footer": {
-        "gashapon_note": "\"Gashapon&reg;\" is a registered trademark of Bandai Co., Ltd.",
-        "SOTSU・SUNRISE": "SOTSU・SUNRISE"
+        "gashapon_note": "\"Gashapon<span>&reg;</span>\" is a registered trademark of Bandai Co., Ltd.",
+        "Aichi Prefectural Police Department": "&copy; Aichi Prefectural Police Department. All rights reserved",
+        "McDONALD’S": "&copy; 2024 McDONALD’S. All Rights Reserved.",
+        "SOTSU・SUNRISE": "&copy; SOTSU・SUNRISE",
+        "BANDAI SPIRITS": "&copy; BANDAI SPIRITS 1971-{YYYY}",
+        "BANDAI": "&copy; BANDAI",
+        "Kazunari Shibata": "&copy; 1996 Kazunari Shibata"
     }
 }

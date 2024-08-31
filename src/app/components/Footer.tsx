@@ -11,25 +11,54 @@ export function Footer() {
     return (
         <footer className={styles.container}>
             <div className={styles.wrapper}>
-                <span>
-                    &copy; Aichi Prefectural Police Department. All rights
-                    reserved
+                <div>
+                    <span
+                        dangerouslySetInnerHTML={{
+                            __html: DOMPurify.sanitize(
+                                t('Aichi Prefectural Police Department')
+                            ),
+                        }}
+                    />
                     <br />
-                    &copy; {new Date().getFullYear()} McDONALD’S. All Rights
-                    Reserved.
+                    <span
+                        dangerouslySetInnerHTML={{
+                            __html: DOMPurify.sanitize(
+                                t('McDONALD’S', {
+                                    YYYY: new Date().getFullYear(),
+                                })
+                            ),
+                        }}
+                    />
                     <br />
-                    &copy;{' '}
-                    <span className={locale === 'ja' ? styles.ja : ''}>
-                        {t('SOTSU・SUNRISE')}
-                    </span>
+                    <span
+                        dangerouslySetInnerHTML={{
+                            __html: DOMPurify.sanitize(t('SOTSU・SUNRISE')),
+                        }}
+                    />
                     <br />
-                    &copy; BANDAI SPIRITS 1971-{new Date().getFullYear()}
+                    <span
+                        dangerouslySetInnerHTML={{
+                            __html: DOMPurify.sanitize(
+                                t('BANDAI SPIRITS', {
+                                    YYYY: new Date().getFullYear(),
+                                })
+                            ),
+                        }}
+                    />
                     <br />
-                    &copy; BANDAI
+                    <span
+                        dangerouslySetInnerHTML={{
+                            __html: DOMPurify.sanitize(t('BANDAI')),
+                        }}
+                    />
                     <br />
-                    &copy; 1996 Kazunari Shibata
+                    <span
+                        dangerouslySetInnerHTML={{
+                            __html: DOMPurify.sanitize(t('Kazunari Shibata')),
+                        }}
+                    />
                     <br />
-                </span>
+                </div>
                 <ul>
                     <li className={styles.eight}>
                         <Link
@@ -89,7 +118,7 @@ export function Footer() {
                 <p
                     className={locale === 'ja' ? styles.ja : ''}
                     dangerouslySetInnerHTML={{
-                        __html: DOMPurify.sanitize(t('gashapon_note')),
+                        __html: DOMPurify.sanitize(t.raw('gashapon_note')),
                     }}
                 />
                 <p>Made in Japan 🇯🇵</p>

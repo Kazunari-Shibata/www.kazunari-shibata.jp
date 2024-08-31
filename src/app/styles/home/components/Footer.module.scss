@@ -1,90 +1,93 @@
 .container {
-  margin-top: var(--gloval_spacing);
-  padding: 30px var(--inner_padding);
-  border-top: 1px solid var(--border-color);
-  position: relative;
-  color: var(--secondary_text_color);
-  $Footer_font-size: 11px;
-  font-size: $Footer_font-size;
-
-  .wrapper {
-    align-items: center;
-    font-weight: 400;
-    justify-content: space-between;
-    font-weight: 300;
-    text-align: left;
-    z-index: 5;
+    margin-top: var(--gloval_spacing);
+    padding: 30px var(--inner_padding);
+    border-top: 1px solid var(--border-color);
     position: relative;
+    color: var(--secondary_text_color);
+    $Footer_font-size: 11px;
+    font-size: $Footer_font-size;
 
-    span {
-      font-weight: 300;
-    }
-
-    ul {
-      display: flex;
-      align-items: center;
-      padding: 20px 0;
-
-      a {
-        display: flex;
-        justify-content: center;
+    .wrapper {
         align-items: center;
-        width: 50px;
-        height: 50px;
-        padding: 10px;
-        border-radius: var(--border-radius);
-        overflow: hidden;
-        margin-right: 10px;
+        font-weight: 400;
+        justify-content: space-between;
+        font-weight: 300;
+        text-align: left;
+        z-index: 5;
+        position: relative;
 
-        &:hover {
-          background: var(--tertiary_background-color);
+        span {
+            font-weight: 300;
         }
-      }
-      .linkedin img {
-        transform: translate(8%, 5%) scale(1.3);
-      }
-      .eight a {
-        padding: 0;
-        margin-right: 20px;
-        border-radius: 5px;
 
-        &:hover img {
-          opacity: 0.8;
+        ul {
+            display: flex;
+            align-items: center;
+            padding: 20px 0;
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50px;
+                height: 50px;
+                padding: 10px;
+                border-radius: var(--border-radius);
+                overflow: hidden;
+                margin-right: 10px;
+
+                &:hover {
+                    background: var(--tertiary_background-color);
+                }
+            }
+            .linkedin img {
+                transform: translate(8%, 5%) scale(1.3);
+            }
+            .eight a {
+                padding: 0;
+                margin-right: 20px;
+                border-radius: 5px;
+
+                &:hover img {
+                    opacity: 0.8;
+                }
+            }
         }
-      }
     }
-  }
 
-  .foot {
-    position: relative;
-    z-index: 5;
-    p {
-      font-weight: 300;
+    .foot {
+        position: relative;
+        z-index: 5;
+        p {
+            font-weight: 300;
+            span {
+                font-size: var(--reg_font-size);
+            }
+        }
     }
-  }
-  .gradation {
-    aspect-ratio: 2 / 1;
-    background: linear-gradient(-45deg, red, blue);
-    border-radius: 50%;
-    filter: blur(35px);
-    position: relative;
-    width: 350px;
-    position: absolute;
-    right: -10%;
-    top: 50%;
-    transform: translateY(-50%);
-    // transform: translate(-50%,-50%);
-    z-index: 1;
-    opacity: var(--gradation_opacity);
+    .gradation {
+        aspect-ratio: 2 / 1;
+        background: linear-gradient(-45deg, red, blue);
+        border-radius: 50%;
+        filter: blur(35px);
+        position: relative;
+        width: 350px;
+        position: absolute;
+        right: -10%;
+        top: 50%;
+        transform: translateY(-50%);
+        // transform: translate(-50%,-50%);
+        z-index: 1;
+        opacity: var(--gradation_opacity);
 
-    &::after {
-      background: radial-gradient(rgba(37, 37, 37, 0%), rgb(37, 37, 37));
-      content: '';
-      inset: 0;
-      position: absolute;
+        &::after {
+            background: radial-gradient(rgba(37, 37, 37, 0%), rgb(37, 37, 37));
+            content: '';
+            inset: 0;
+            position: absolute;
+        }
     }
-  }
-  .ja {
-    font-size: $Footer_font-size - 1;
-  }
+    .ja {
+        font-size: $Footer_font-size - 1;
+    }
 }

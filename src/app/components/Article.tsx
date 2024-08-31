@@ -6,6 +6,7 @@ import Link from 'next/link';
 
 type ArticleTypes = {
     title: string;
+    h2: string;
     description: string;
     url: string;
     image_src: string;
@@ -36,9 +37,9 @@ export function Article(data: ArticleTypes) {
                 />
             </div>
             <div className={styles.texts}>
-                <h3
+                <h2
                     dangerouslySetInnerHTML={{
-                        __html: DOMPurify.sanitize(data.title),
+                        __html: DOMPurify.sanitize(data.h2),
                     }}
                 />
                 <p
@@ -49,7 +50,11 @@ export function Article(data: ArticleTypes) {
                 <div className={styles.gradation}></div>
             </div>
             <div className={styles.button}>
-                <Link href={data.url} target="_blank">
+                <Link
+                    href={data.url}
+                    target="_blank"
+                    aria-label={`Learn more about the ${data.title}`}
+                >
                     <span>{t('See more')}</span>
                 </Link>
                 <div className={styles.gradation}></div>

@@ -1,51 +1,58 @@
 {
-  "Header": {
-    "alt": "言語を変更する"
-  },
-  "Switcher": {
-    "Switching languages": "言語変更"
-  },
-  "Works": {
-    "GASHAPON_OFFICIAL_SITE": {
-      "title": "ガシャポン<span><span>&reg;</span></span>オフィシャルサイト",
-      "description": "株式会社バンダイのカプセルトイ「ガシャポン<span><span>&reg;</span></span>」。その公式情報サイト「ガシャポン<span>&reg;</span>オフィシャルサイト」のウェブプロデュースを担当。ガシャポン<span>&reg;</span>マシンから送信される販売データとユーザーの位置情報を掛け合わせ、欲しい商品がどこで買えるか地図上で簡単に検索できる機能を実装したことで、情報サイトとしての性能を強化。また、外部サイトの公式オンラインショップ「ガシャポン<span>&reg;</span>オンライン」と販売データをほぼリアルタイムに連携したことで、欲しい商品を見つけたらすぐに購入できる導線を整備。その結果、オンラインショップの売上全体の約13%を本サイトからの送客で実現した。"
+    "Header": {
+        "alt": "言語を変更する"
     },
-    "HOBBY_SITE": {
-      "title": "バンダイホビーサイト",
-      "description": "株式会社BANDAI SPIRITSが製造・販売をおこなっているプラモデルの公式情報サイト「バンダイホビーサイト」のウェブディレクションを担当。昨今の人気の高まりもあり、アクセス集中時にサーバがアクセスを処理しきれず、ページを閲覧できない場面がままあったため、アクセス集中を見越してサーバスペックを増強しやすいクラウドサーバへの移管を決行。サーバ移管前はアクセス集中時に1時間あたり数万件の503（混雑）エラーが発生していたが、クラウドサーバへの移管後は0件を達成した。絶対にサーバを落とせない場面でも万全の準備を整えられる環境構築をおこなった。"
+    "Switcher": {
+        "Switching languages": "言語変更"
     },
-    "GASHAPON_ONLINE": {
-      "title": "ガシャポン<span>&reg;</span>オンライン",
-      "description": "株式会社バンダイナムコアミューズメント社が運営するガシャポン<span>&reg;</span>の公式オンラインショップ「ガシャポン<span>&reg;</span>オンライン」のウェブディレクションを担当。「ガシャポン<span>&reg;</span>オンライン」とはパソコンやスマホがあれば、いつでもどこでも24時間ウェブサイト上でガシャポン<span>&reg;</span>を購入でき、後日その商品が指定先まで届くサービスです。画面上でガシャポン<span>&reg;</span>自販機を回すと、カプセルが出てきて開封でき、何が当たったかはその場でわかります。抽選画面や音の演出が体験できるのもオンラインならではの特徴。"
+    "Works": {
+        "GASHAPON_OFFICIAL_SITE": {
+            "title": "ガシャポンオフィシャルサイト",
+            "h2": "ガシャポン<span><span>&reg;</span></span>オフィシャルサイト",
+            "description": "株式会社バンダイのカプセルトイ「ガシャポン<span><span>&reg;</span></span>」。その公式情報サイト「ガシャポン<span>&reg;</span>オフィシャルサイト」のウェブプロデュースを担当。ガシャポン<span>&reg;</span>マシンから送信される販売データとユーザーの位置情報を掛け合わせ、欲しい商品がどこで買えるか地図上で簡単に検索できる機能を実装したことで、情報サイトとしての性能を強化。また、外部サイトの公式オンラインショップ「ガシャポン<span>&reg;</span>オンライン」と販売データをほぼリアルタイムに連携したことで、欲しい商品を見つけたらすぐに購入できる導線を整備。その結果、オンラインショップの売上全体の約13%を本サイトからの送客で実現した。",
+            "copyright": "&copy; BANDAI"
+        },
+        "HOBBY_SITE": {
+            "title": "バンダイホビーサイト",
+            "h2": "バンダイホビーサイト",
+            "description": "株式会社BANDAI SPIRITSが製造・販売をおこなっているプラモデルの公式情報サイト「バンダイホビーサイト」のウェブディレクションを担当。昨今の人気の高まりもあり、アクセス集中時にサーバがアクセスを処理しきれず、ページを閲覧できない場面がままあったため、アクセス集中を見越してサーバスペックを増強しやすいクラウドサーバへの移管を決行。サーバ移管前はアクセス集中時に1時間あたり数万件の503（混雑）エラーが発生していたが、クラウドサーバへの移管後は0件を達成した。絶対にサーバを落とせない場面でも万全の準備を整えられる環境構築をおこなった。",
+            "copyright": "&copy; 創通・サンライズ &copy; BANDAI SPIRITS 1971-{YYYY}"
+        },
+        "McDonalds_Tray_Mat": {
+            "title": "日本マクドナルド トレーマット",
+            "h2": "日本マクドナルド トレーマット",
+            "description": "日本で社会問題になっている「JKビジネス」。JKビジネスとは女子高生を売りとして、風営法や少年保護育成条例等の規定に反して客の性的好奇心をそそる仕事をさせることをいいます。その防犯意識啓発のため、愛知県警中村警察署と、地域貢献活動に積極的な日本マクドナルドが開催したトレーマットのコンペティションにてグランプリを獲得。東海3県のマクドナルド全店舗で使用され、JKビジネスの撲滅に大きく貢献したとして愛知県警から感謝状を受賞した。",
+            "copyright": "&copy; Aichi Prefectural Police Department. All rights reserved &copy; {YYYY} McDONALD’S. All Rights Reserved."
+        }
     },
-    "McDonalds_Tray_Mat": {
-      "title": "日本マクドナルド トレーマット",
-      "description": "日本で社会問題になっている「JKビジネス」。JKビジネスとは女子高生を売りとして、風営法や少年保護育成条例等の規定に反して客の性的好奇心をそそる仕事をさせることをいいます。その防犯意識啓発のため、愛知県警中村警察署と、地域貢献活動に積極的な日本マクドナルドが開催したトレーマットのコンペティションにてグランプリを獲得。東海3県のマクドナルド全店舗で使用され、JKビジネスの撲滅に大きく貢献したとして愛知県警から感謝状を受賞した。"
+    "Article": {
+        "See more": "もっと見る"
+    },
+    "Contact": {
+        "CONTACT ME": "CONTACT ME",
+        "disc": "業務稼働可",
+        "First Name": "姓",
+        "First Name_placeholder": "柴田",
+        "Last Name": "名",
+        "Last Name_placeholder": "和成",
+        "E-mail": "メールアドレス",
+        "Message": "メッセージ",
+        "Message_placeholder": "Hi 👋",
+        "Submit": "送信",
+        "Submitting": "送信中..."
+    },
+    "PrimaryColor": {
+        "en": "Edo purple",
+        "漢字": "江戸紫",
+        "ひらがな": "えどむらさき"
+    },
+    "Footer": {
+        "gashapon_note": "「ガシャポン<span>&reg;</span>」は株式会社バンダイの登録商標です。",
+        "Aichi Prefectural Police Department": "&copy; Aichi Prefectural Police Department. All rights reserved",
+        "McDONALD’S": "&copy; 2024 McDONALD’S. All Rights Reserved.",
+        "SOTSU・SUNRISE": "&copy; 創通・サンライズ",
+        "BANDAI SPIRITS": "&copy; BANDAI SPIRITS 1971-{YYYY}",
+        "BANDAI": "&copy; BANDAI",
+        "Kazunari Shibata": "&copy; 1996 Kazunari Shibata"
     }
-  },
-  "Article": {
-    "See more": "もっと見る"
-  },
-  "Contact": {
-    "CONTACT ME": "CONTACT ME",
-    "disc": "業務稼働可",
-    "First Name": "姓",
-    "First Name_placeholder": "柴田",
-    "Last Name": "名",
-    "Last Name_placeholder": "和成",
-    "E-mail": "メールアドレス",
-    "Message": "メッセージ",
-    "Message_placeholder": "Hi 👋",
-    "Submit": "送信",
-    "Submitting": "送信中..."
-  },
-  "PrimaryColor": {
-    "en": "Edo purple",
-    "漢字": "江戸紫",
-    "ひらがな": "えどむらさき"
-  },
-  "Footer": {
-    "gashapon_note": "「ガシャポン&reg;」は株式会社バンダイの登録商標です。",
-    "SOTSU・SUNRISE": "創通・サンライズ"
-  }
 }
