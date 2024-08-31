@@ -26,9 +26,13 @@ export function Works() {
                 image_width={820}
                 image_height={820}
                 image_priority={false}
-                copyright={t('HOBBY_SITE.copyright', {
-                    YYYY: new Date().getFullYear(),
-                })}
+                copyright={`
+                    ${t('HOBBY_SITE.copyright.SOTSU・SUNRISE')}
+                    <br />
+                    ${t('HOBBY_SITE.copyright.BANDAI SPIRITS', {
+                        YYYY: new Date().getFullYear(),
+                    })}
+                `}
             />
             <Article
                 title={t.raw('McDonalds_Tray_Mat.title')}
@@ -39,9 +43,13 @@ export function Works() {
                 image_width={820}
                 image_height={820}
                 image_priority={false}
-                copyright={t('McDonalds_Tray_Mat.copyright', {
-                    YYYY: new Date().getFullYear(),
-                })}
+                copyright={`
+                    ${t('McDonalds_Tray_Mat.copyright.Aichi Police')}
+                    <br />
+                    ${t('McDonalds_Tray_Mat.copyright.McDONALD’S', {
+                        YYYY: new Date().getFullYear(),
+                    })}
+                `}
             />
         </section>
     );
