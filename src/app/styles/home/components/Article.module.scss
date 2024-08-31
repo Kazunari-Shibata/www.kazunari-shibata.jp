@@ -106,13 +106,13 @@
             opacity: calc(var(--gradation_opacity) + 0.05);
         }
     }
+    // &:nth-child(3) {
+    //     .gradation {
+    //         background: linear-gradient(45deg, green, blue);
+    //         opacity: calc(var(--gradation_opacity) + 0.05);
+    //     }
+    // }
     &:nth-child(3) {
-        .gradation {
-            background: linear-gradient(45deg, green, blue);
-            opacity: calc(var(--gradation_opacity) + 0.05);
-        }
-    }
-    &:nth-child(4) {
         .gradation {
             background: linear-gradient(45deg, red, yellow);
             opacity: calc(var(--gradation_opacity) - 0.05);
