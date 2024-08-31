@@ -7,25 +7,25 @@ export function Works() {
     return (
         <section id="section_works" className={styles.container}>
             <Article
-                title={t.raw('GASHAPON_OFFICIAL_SITE.title')}
+                title={t('GASHAPON_OFFICIAL_SITE.title')}
                 h2={t.raw('GASHAPON_OFFICIAL_SITE.h2')}
                 description={t.raw('GASHAPON_OFFICIAL_SITE.description')}
                 url="https://gashapon.jp/"
-                image_src="/Works_official-site.webp"
-                image_width={820}
-                image_height={820}
-                image_priority={true}
-                copyright={t.raw('GASHAPON_OFFICIAL_SITE.copyright')}
+                imageSrc="/Works_official-site.webp"
+                imageWidth={820}
+                imageHeight={820}
+                imagePriority={true}
+                copyright={t('GASHAPON_OFFICIAL_SITE.copyright')}
             />
             <Article
                 title={t('HOBBY_SITE.title')}
-                h2={t('HOBBY_SITE.h2')}
-                description={t('HOBBY_SITE.description')}
-                image_src="/Works_hobbysite.webp"
+                h2={t.raw('HOBBY_SITE.h2')}
+                description={t.raw('HOBBY_SITE.description')}
+                imageSrc="/Works_hobbysite.webp"
                 url="https://bandai-hobby.net/"
-                image_width={820}
-                image_height={820}
-                image_priority={false}
+                imageWidth={820}
+                imageHeight={820}
+                imagePriority={false}
                 copyright={`
                     ${t('HOBBY_SITE.copyright.SOTSU・SUNRISE')}
                     <br />
@@ -35,14 +35,14 @@ export function Works() {
                 `}
             />
             <Article
-                title={t.raw('McDonalds_Tray_Mat.title')}
+                title={t('McDonalds_Tray_Mat.title')}
                 h2={t.raw('McDonalds_Tray_Mat.h2')}
                 description={t.raw('McDonalds_Tray_Mat.description')}
-                image_src="/Works_mc.webp"
+                imageSrc="/Works_mc.webp"
                 url="https://prtimes.jp/main/html/rd/p/000000050.000011137.html"
-                image_width={820}
-                image_height={820}
-                image_priority={false}
+                imageWidth={820}
+                imageHeight={820}
+                imagePriority={false}
                 copyright={`
                     ${t('McDonalds_Tray_Mat.copyright.Aichi Police')}
                     <br />

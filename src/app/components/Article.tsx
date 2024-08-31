@@ -9,10 +9,10 @@ type ArticleTypes = {
     h2: string;
     description: string;
     url: string;
-    image_src: string;
-    image_width: number;
-    image_height: number;
-    image_priority: boolean;
+    imageSrc: string;
+    imageWidth: number;
+    imageHeight: number;
+    imagePriority: boolean;
     copyright: string;
 };
 
@@ -23,11 +23,11 @@ export function Article(data: ArticleTypes) {
         <article className={styles.container}>
             <div className={styles.image}>
                 <Image
-                    src={data.image_src}
+                    src={data.imageSrc}
                     alt={data.title}
-                    width={data.image_width}
-                    height={data.image_height}
-                    priority={data.image_priority}
+                    width={data.imageWidth}
+                    height={data.imageHeight}
+                    priority={data.imagePriority}
                 />
                 <span
                     className={styles.copyright}
