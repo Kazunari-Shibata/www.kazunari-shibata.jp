@@ -1,0 +1,117 @@
+.container {
+  padding-top: var(--header_height);
+  $Contact_border-color: #333;
+
+  .section {
+    border-radius: calc(var(--border-radius) * 1.5);
+    border: 1px solid $Contact_border-color;
+    margin: 20px auto 0;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    background: radial-gradient(
+      97% 98% at 1.5% 99.1%,
+      var(--primary_color) 0%,
+      rgb(0, 3, 15) 100%
+    );
+    .title {
+      border-bottom: 1px solid var(--border-color);
+      padding: 20px 20px;
+      position: relative;
+      z-index: 5;
+      h2 {
+        font-size: 155%;
+        font-weight: bold;
+        line-height: 1;
+        transform: translateY(1px);
+      }
+      .inner {
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+
+        p {
+          font-size: 95%;
+          position: relative;
+          padding-left: 7.5px;
+          color: var(--secondary_text_color);
+        }
+      }
+    }
+  }
+
+  form {
+    padding: 20px 20px;
+    .inner {
+      display: flex;
+      justify-content: space-between;
+      .wrapper {
+        width: 47%;
+        // margin-bottom: 20px;
+      }
+    }
+    label {
+      display: block;
+      margin-bottom: 7px;
+      color: var(--secondary_text_color);
+      z-index: 5;
+      position: relative;
+    }
+    input,
+    textarea {
+      background: rgba($color: #000000, $alpha: 0.5);
+      border-radius: var(--border-radius);
+      border: 1px solid $Contact_border-color;
+      display: block;
+      font-family: var(--font-noto_sans_jp), sans-serif;
+      font-optical-sizing: auto;
+      font-size: 16px;
+      font-weight: 400;
+      padding: 13px;
+      width: 100%;
+      position: relative;
+      z-index: 5;
+      box-shadow: 0 0 15px rgba($color: #000000, $alpha: 0.5);
+      margin-bottom: 20px;
+
+      &::placeholder {
+        font-family: var(--font-roboto_condensed), sans-serif;
+        font-size: 90%;
+        color: #999999;
+      }
+    }
+
+    button {
+      background: rgba($color: #fff, $alpha: 0.75);
+      color: var(--primary_background-color);
+      padding: var(--button_padding);
+      border-radius: var(--border-radius);
+      font-size: 17px;
+      font-weight: 500;
+      display: block;
+      width: 100%;
+      margin: 30px auto 20px;
+      position: relative;
+      z-index: 5;
+      box-shadow: 0 0 15px rgba($color: #000000, $alpha: 0.6);
+    }
+  }
+}
+html[lang='ja'] {
+  .container {
+    .title {
+      h2 {
+        font-size: 160%;
+      }
+      p {
+        &::before,
+        &::after {
+          top: 45%;
+        }
+      }
+    }
+    button {
+      font-size: 95%;
+    }
+  }
+}

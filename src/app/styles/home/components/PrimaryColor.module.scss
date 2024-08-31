@@ -1,0 +1,42 @@
+.container {
+    font-size: 80%;
+    display: flex;
+    align-items: center;
+    padding: var(--gloval_spacing) 0;
+
+    .circle {
+        display: block;
+        width: 35px;
+        height: 35px;
+        background: var(--primary_color);
+        margin-right: 5px;
+        position: relative;
+        border-radius: 10px;
+
+        &::before {
+            content: "";
+            display: block;
+            width: 35px;
+            height: 1px;
+            background: #fff;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            // transform: rotate(333deg) translateY(50%);
+        }
+    }
+
+    p {
+        font-weight: 400;
+        // transform: translate(12px, 45%);
+        margin-left: 20px;
+
+        span {
+            margin-right: 7px;
+        }
+        .ja {
+            font-size: 90%;
+            font-weight: 500;
+        }
+    }
+}
