@@ -23,7 +23,7 @@ export function RadarIcon() {
                             transform: translate(-50%, -50%);
                         }
                         &::after {
-                            animation: circle_scale 3s infinite;
+                            animation: circle_scale 1.5s infinite;
                         }
                     }
                     @keyframes circle_scale {
